@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./NumberGuessoutput.css">
+</head>
+<body>
+    <div class="h-150 w-100 border-[1px]  border-black ml-20 ">
+       <div class="h-15 border-[1px] border-black w-100 flex bg-gray-200">
+       <a href="Homepage.html" class="ml-20 mt-3 border-[1px] border-black h-8 w-25 flex justify-center bg-gray-300 rounded-[10px] flex hover:bg-gray-400 hover:text-white">
+        <span class="font-bold">Home</span>
+       </a>
+       <a href="" class="ml-5 mt-3 border-[1px] border-black h-8 w-35 flex justify-center bg-gray-300 rounded-[10px]  hover:text-white hover:bg-gray-400">
+        <span class="font-bold">Youtube Chanel</span>
+       </a>
+       </div>
+       <div class="h-130 w-100 border-[1px] bg-slate-500" id="main">
+      <div class="mt-5 ml-25">
+          <b class="text-[20px]">Color Scheme Switcher</b>
+      </div>
+      <div class="h-100 w-92 border-[1px] ml-5 border-black bg-gray-400">
+<p class="text-white">Try and Guess a rondom number between 1 to 100.</p>
+<p class="text-white ml-2">You have 10 attempts to guess the right number.</p>
+<br>
+<b class="text-3xl mt-3 pt-3 ml-10">Guess the number</b>
+<form  class="form">
+    <input type="text" id="guessnumber" class="bg-white h-10 ml-20 rounded-2xl">
+    <input id="btnsubmit" type="submit" value="Submit" class="h-10 w-30 bg-slate-700 mt-5 ml-30 rounded-2xl text-white font-bold">
+</form>
+<div class="result">
+<p class="mt-2 ml-20 text-white">Previous Gutess: <span id="guesses"></span></p>
+<p class="ml-20 text-white">Guess Remaining:- <span class="lastresult">10</span></p>
+<p class="LoworHigh ml-20" ></p>
+</div>
+      </div>
+      
+       </div>
+    </div>
+</body>
+<Script src="NumberGuess.js"></Script>
+</html>

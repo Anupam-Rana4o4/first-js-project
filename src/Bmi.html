@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Bmioutput.css">
+</head>
+<body >
+   <div class="h-150 w-100 border-[1px]  border-black ml-20 ">
+       <div class="h-15 border-[1px] border-black w-100 flex bg-gray-200">
+       <a href="Homepage.html" class="ml-20 mt-3 border-[1px] border-black h-8 w-25 flex justify-center bg-gray-300 rounded-[10px] flex hover:bg-gray-400 hover:text-white">
+        <span class="font-bold">Home</span>
+       </a>
+       <a href="" class="ml-5 mt-3 border-[1px] border-black h-8 w-35 flex justify-center bg-gray-300 rounded-[10px]  hover:text-white hover:bg-gray-400">
+        <span class="font-bold">Youtube Chanel</span>
+       </a>
+       </div>
+       <form id="form">
+       <div class="h-130 w-100 border-[1px] bg-gray-400" id="main">
+     <div class="mt-10 ml-10">
+        <b class="font-bold text-2xl">Bmi Calculator</b>
+     </div>
+     <p class="mt-5 ml-5"><label>Height in cm</label> <input type="text" class="bg-white" id="height"></p>
+     <p class="mt-5 ml-5"><label>Weight in kg</label> <input type="text" class="bg-white" id="weight"></p>
+     <button class="bg-white h-8 w-30 mt-5 ml-30 rounded-[10px]">Calculate</button>
+     <div id="result" class="mt-5 ml-30"></div>
+       </div>
+       </form>
+    </div> 
+    <script src="BMI.js"></script>
+</body>
+</html>

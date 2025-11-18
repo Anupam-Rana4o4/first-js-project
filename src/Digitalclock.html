@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./Digitalclockoutput.css">
 </head>
-<body>
-    <div class="h-150 w-100 border-[1px]  border-black ml-20 ">
+<body class="">  
+    <div class="h-150 w-100 border-[1px]  border-black ml-20 bg-gray-300">
        <div class="h-15 border-[1px] border-black w-100 flex bg-gray-200">
        <a href="Homepage.html" class="ml-20 mt-3 border-[1px] border-black h-8 w-25 flex justify-center bg-gray-300 rounded-[10px] flex hover:bg-gray-400 hover:text-white">
         <span class="font-bold">Home</span>
@@ -17,17 +17,14 @@
        </a>
        </div>
        <div class="h-130 w-100 border-[1px]" id="main">
-      <div class="mt-15 ml-25">
-          <b class="text-[20px]">Color Scheme Switcher</b>
+      <div class="center">
+        <div id="banner" class="mt-30 ml-30">
+            <span class="font-bold">Your Local time</span>
+        </div>
+<div id="clock" class="h-8 w-30 ml-30 mt-2 bg-yellow-500 rounded-2xl flex justify-center text-white items-center"></div>
       </div>
-      <div class="h-50 w-100 border-[0px] border-black flex">
-        <div class="h-20 w-20 border-[1px] border-black mt-5 ml-2.5 bg-gray-500" id="Gray"></div>
-    <div class="h-20 w-20 border-[1px] border-black mt-5 ml-5 bg-white" id="White"></div>
-    <div class="h-20 w-20 border-[1px] border-black mt-5 ml-5 bg-blue-500" id="Blue"></div>
-    <div class="h-20 w-20 border-[1px] border-black mt-5 ml-5 bg-yellow-300" id="Yellow"></div>  
-    </div>
        </div>
-    </div>
-    <script src="design.js"></script>
+    </div>  
 </body>
+<script src="Digitalclock.js"></script>
 </html>
